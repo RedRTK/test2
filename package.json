@@ -1,0 +1,17 @@
+{
+  "name": "adblockify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ad blocking extension for SpotiKit",
+  "scripts": {
+    "build": "spotikit-kit build",
+    "dev": "spotikit-kit dev",
+    "check": "spotikit-kit check",
+    "pack": "spotikit-kit pack"
+  },
+  "devDependencies": {
+    "spotikit-kit": "^0.9.0",
+    "typescript": "^5.9.3"
+  }
+}

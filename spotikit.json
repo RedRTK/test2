@@ -1,0 +1,18 @@
+{
+  "type": "extension",
+  "name": "Adblockify",
+  "description": "Blocks Spotify ads: in-stream audio and video, billboards, leaderboards, sponsored playlists and upgrade prompts.",
+  "preview": "preview.png",
+  "readme": "README.md",
+  "authors": [
+    {
+      "name": "ririxi",
+      "url": "https://github.com/rxri"
+    }
+  ],
+  "tags": ["adblock", "ads", "privacy"],
+  "spotify": "1.3.6 - 1.3.9",
+  "version": "1.0.0",
+  "source": "src/extension.ts",
+  "main": "dist/adblockify.js"
+}
