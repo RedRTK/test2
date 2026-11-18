@@ -3,9 +3,16 @@
 Stream Spotify without interruptions: ads are cleared as they come, and the ones in the
 interface are hidden.
 
-Ported from [adblockify](https://github.com/rxri/spicetify-extensions/tree/main/adblock) by
-[ririxi](https://github.com/rxri) (Spicetify) to **SpotiKit**. Same idea, same ad services, now
-using SpotiKit's API, its start/stop lifecycle and its class names.
+## Authors
+
+- **SpotiKit port:** [RedRTK](https://github.com/RedRTK) — this repository.
+- **Original adblock for Spicetify:** [ririxi](https://github.com/rxri), from
+  [spicetify-extensions/adblock](https://github.com/rxri/spicetify-extensions/tree/main/adblock).
+  The idea, the ad services it turns off and part of the CSS are theirs.
+- Earlier work on that Spicetify extension: CharlieS1103 (see `LICENSE`).
+
+Ported from that extension to **SpotiKit**: same idea, same ad services, now using SpotiKit's API,
+its start/stop lifecycle and its class names.
 
 ## Install
 
@@ -56,6 +63,14 @@ npm run check     # manifest, files, code and types
 The internals it relies on are Spotify's, not SpotiKit's: the ads protobuf clients are built from
 Spotify's loaded modules, exactly like before. If an update moves something, the log says which
 part is missing and the rest keeps working.
+
+## Credits
+
+This is a port, not an original work. The ad services it disables, the approach of reporting the
+account as premium and the CSS that hides the ad elements come from ririxi's Spicetify extension,
+which in turn builds on CharlieS1103's work. What is new here is the SpotiKit side: the extension
+API, the start/stop lifecycle, the timer cleanup and the move from generated class names to stable
+test ids.
 
 ## Not tested here
 

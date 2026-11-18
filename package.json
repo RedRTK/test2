@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Ad blocking extension for SpotiKit",
+  "description": "Ad blocking extension for SpotiKit, ported from ririxi's Spicetify adblock",
+  "author": "RedRTK (https://github.com/RedRTK)",
+  "contributors": [
+    "ririxi <https://github.com/rxri> (original adblock for Spicetify)"
+  ],
+  "homepage": "https://github.com/RedRTK/test2#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedRTK/test2.git"
+  },
   "scripts": {
     "build": "spotikit-kit build",
     "dev": "spotikit-kit dev",

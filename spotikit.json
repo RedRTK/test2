@@ -6,7 +6,11 @@
   "readme": "README.md",
   "authors": [
     {
-      "name": "ririxi",
+      "name": "RedRTK",
+      "url": "https://github.com/RedRTK"
+    },
+    {
+      "name": "ririxi (original adblock for Spicetify)",
       "url": "https://github.com/rxri"
     }
   ],
